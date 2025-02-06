@@ -61,7 +61,7 @@ form input[type="submit"]:hover {
 
 form input[type="checkbox"],
 form input[type="radio"] {
-    margin-right: 5px; /
+    margin-right: 5px;
     display: inline-block; 
 }
 
