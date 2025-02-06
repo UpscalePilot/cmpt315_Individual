@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<!-- CMPT 315 - Lab 2 - Ben Morley 3142870 -->
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="assignment-two-style.css">
+</head>
+<body>
+    <header>
+        <h1>User Registration System</h1>
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#register">Register</a></li>
+                <li><a href="#users">Users</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="Register">
+        <h2>Register New User</h2>
+        <form>
+            <label for="full name">Full Name:</label>
+            <input type="text" id="full name" name="full name">
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+            <br><br>
+            <fieldset>
+                <legend>Address</legend>
+                <label for="street">Street:</label>
+                <input type="text" id="street" name="street">
+                <br><br>
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city">
+                <br><br>
+                <label for="province">Province:</label>
+                <input type="text" id="province" name="province">
+                <br><br>
+                <label for="postal code">Postal Code:</label>
+                <input type="text" id="postal code" name="postal code">
+                <br><br>
+                <label for="country">Country:</label>
+                <input type="text" id="country" name="country">
+            </fieldset>
+            <br><br>
+            <label for="gender">Gender: </label>
+            <input type="radio" id="gender" name="gender" value="male"> Male 
+            <input type="radio" id="gender" name="gender" value="female"> Female
+            <input type="radio" id="gender" name="gender" value="other"> Other
+            <br><br>
+            <label for="hobbies">Hobbies:</label>
+            <input type="checkbox" id="hobbies" name="hobbies" value="reading"> Hockey
+            <input type="checkbox" id="hobbies" name="hobbies" value="writing"> Tennis
+            <input type="checkbox" id="hobbies" name="hobbies" value="cooking"> Racing
+            <br><br>
+            <input type="submit" value="Register">
+        </form>
+    </section>
+    <section id="Registered Users">
+        <h2>Registered Users</h2>
+        <table>
+            <tr>
+                <th>Full Name</th>
+                <th>Email</th>
+                <th>Address</th>
+                <th>Gender</th>
+                <th>Hobbies</th>
+            </tr>
+            <!-- Add rows for registered users here -->
+            <tr>
+                <td>John Doe</td>
+                <td>john.doe@example.com</td>
+                <td>123 Main St, Springfield, IL, 62701, USA</td>
+                <td>Male</td>
+                <td>Hockey, Tennis</td>
+            </tr>
+            <tr>
+                <td>Jane Smith</td>
+                <td>jane.smith@example.com</td>
+                <td>456 Elm St, Metropolis, NY, 10001, USA</td>
+                <td>Female</td>
+                <td>Reading, Cooking</td>
+            </tr>
+            <tr>
+                <td>Michael Johnson</td>
+                <td>michael.johnson@example.com</td>
+                <td>789 Oak St, Gotham, NJ, 07001, USA</td>
+                <td>Male</td>
+                <td>Tennis, Racing</td>
+            </tr>
+            <tr>
+                <td>Emily Davis</td>
+                <td>emily.davis@example.com</td>
+                <td>101 Pine St, Star City, CA, 90001, USA</td>
+                <td>Female</td>
+                <td>Hockey, Reading</td>
+            </tr>
+            <tr>
+                <td>Chris Brown</td>
+                <td>chris.brown@example.com</td>
+                <td>202 Maple St, Central City, TX, 73301, USA</td>
+                <td>Other</td>
+                <td>Cooking, Racing</td>
+            </tr>
+        </table>
+    </section>
+    <footer>
+        <p>Copyright © Ben Morley 2025 </p>
+    </footer>
+</body>
+</html>
