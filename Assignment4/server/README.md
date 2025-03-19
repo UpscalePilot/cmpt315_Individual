@@ -7,4 +7,4 @@ and may run differently on Windows or MacOS
 
 ## To Start Server:
 
-`node server.js`
+`npm start`
